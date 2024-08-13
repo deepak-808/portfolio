@@ -15,13 +15,16 @@ const Button: React.FC<ButtonProps> = ({
   endIcon,
   className,
   style,
-  type = 'button',
+  type = "button",
   onClick,
   children,
 }) => {
   return (
     <button
-      className={cn("bg-primary rounded-full text-center text-white text-sm font-medium py-4 gap-3 px-3 min-w-24 flex", className)}
+      className={cn(
+        "bg-primary rounded-full text-center text-white text-sm font-medium py-4 gap-3 px-3 min-w-24 flex",
+        className,
+      )}
       onClick={onClick}
       type={type}
       style={style}

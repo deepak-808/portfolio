@@ -22,6 +22,7 @@ const config = {
         "bg-image": "url('/image/bg.png')"
       },
       colors: {
+        darkslategray:"#f0f8ff",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

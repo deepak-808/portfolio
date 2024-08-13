@@ -1,8 +1,3 @@
-import Header from "@/common/components/header";
-
 export default function Home() {
-  return (
-    <main>
-    </main>
-  );
+  return <div className="min-h-screen">Content</div>;
 }
